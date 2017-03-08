@@ -1,38 +1,60 @@
 <!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="stylesheet"> 
-  <link href="style.css" rel="stylesheet">
-  <title>Shantanu Bhatia</title>
-</head>
-<body>
+	<head>
+		<title>Shantanu Bhatia</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Shantanu Bhatia</h1>
+							<p>CS Student at NYU Abu Dhabi</p>
+							<ul class="icons">
+								<li><a href="#" class="fa-twitter">Twitter</a></li>
+								<li><a href="#" class="fa-instagram">Instagram</a></li>
+								<li><a href="#" class="fa-facebook">Facebook</a></li>
+							</ul>
+						</header>
+					</section>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					<section id = "info">
+							<h1><b>About Me</b></h1>
+							<br>
+							<p>I'm a sophomore Computer Science student at NYU Abu Dhabi, currently studying abroad at NYU Florence. I'm interested in Game Design, Natural Language Processing and Machine Learning. Outside of academics, I also dabble in writing, photography and filmmaking. I have a blog, where I've written about everything from self-driving cars to the design of <i>Doom</i>. I'm currently studying away in Florence, Italy, where I'm studying the economics of the EU, film photography and how much pizza one can eat without exploding.</p>
+							<br>
+							<h1><b>Projects</b></h1>
+							<br>
+							<h2>Force Ship</h2>
+							<p>Force Ship is a simple 3D shoot-em-up game played using a wearable motion controller. In Force Ship, the player must channel the mystical Force through the motions of their hand to navigate their spacecraft through an asteroid field. I built Force Ship in Unity, and used Arduino to make a motion controller.</p>
+							<h2>BreakTris</h2>
+							<p>Tetris meets Breakout! In BreakTris, players standing at opposite ends of a table fight for control of the board, as one player places Tetris blocks to make lines and move blocks towards the Breakout player, while the Breakout player attempts to break those blocks and reach the other side of the board. BreakTris was built in Java and Processing, and was featured at the NYU Abu Dhabi Arts Center Open Studios Exhibition, 2016.</p>
+							<h2>Destinator</h2>
+							<p>Destinator is an IBM Watson-based travel guide app. Using Personality Insights and an analysis of your Twitter feed, Destinator will match your personality type to one in its database and recommend a travel location based on where it thinks you'd like to go. Destinator was initially created for the 2016 IBM-Etihad Hackathon held in Abu Dhabi.</p>
+					</section>
+			</div>
 
-<header>
-	<h1>Shantanu Bhatia</h1>
-	<ul>
-		<li>LinkedIn</li>
-		<li>Projects</li>
-		<li>Blog</li>
-		<li>Instagram</li>
-	</ul>
-</header>
-<div class = "construction_warning">Site Under Construction, check back soon!</div>
-<div class = "bio">
-	<h2>Who am I?</h2>
-	<p>I'm a sophomore Computer Science student at NYU Abu Dhabi, currently studying abroad at NYU Florence. I'm interested in Game Design, Natural Language Processing and Machine Learning. Outside of academics, I also dabble in writing, photography and filmmaking. I have a blog, where I've written about everything from self-driving cars to the design of <i>Doom</i>. I'm currently studying away in Florence, Italy, where I'm studying the economics of the EU, film photography and how much pizza one can eat without exploding.</p>
-</div>
-
-<div class="projects">
-	<h2>Projects</h2>
-	<h3>Force Ship</h3>
-	<p>Force Ship is a simple 3D shoot-em-up game played using a wearable motion controller. In Force Ship, the player must channel the mystical Force through the motions of their hand to navigate their spacecraft through an asteroid field. I built Force Ship in Unity, and used Arduino to make a motion controller.</p>
-	<h3>BreakTris</h3>
-	<p>Tetris meets Breakout! In BreakTris, players standing at opposite ends of a table fight for control of the board, as one player places Tetris blocks to make lines and move blocks towards the Breakout player, while the Breakout player attempts to break those blocks and reach the other side of the board. BreakTris was built in Java and Processing, and was featured at the NYU Abu Dhabi Arts Center Open Studios Exhibition, 2016.</p>
-	<h3>Destinator</h3>
-	<p>Destinator is an IBM Watson-based travel guide app. Using Personality Insights and an analysis of your Twitter feed, Destinator will match your personality type to one in its database and recommend a travel location based on where it thinks you'd like to go. Destinator was initially created for the 2016 IBM-Etihad Hackathon held in Abu Dhabi.</p>
-</div>
-</body>
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
+	</body>
 </html>
